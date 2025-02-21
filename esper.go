@@ -11,6 +11,8 @@ import (
 	"blekksprut.net/yofukashi/nex"
 )
 
+const Version = "0.0.1"
+
 var Cards = []string{
 	"🂡", "🂱", "🃁", "🃑",
 	"🂢", "🂲", "🃂", "🃒",

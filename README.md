@@ -19,7 +19,7 @@ $ esper -c services.gmi
 
 => gemini://blekksprut.net/ 🐙🐙 gemini
 => spartan://blekksprut.net/ 🦍🦍 spartan
-=> gemini://blekksprut.net/notfound 🦋🦉 something that doesn't exist
+=> gemini://blekksprut.net/notfound 🦋🦉 404 😱
 
 ## manatsu.town
 

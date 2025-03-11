@@ -80,5 +80,4 @@ func Try(ref, name string) error {
 	default:
 		return fmt.Errorf("?")
 	}
-	return nil
 }

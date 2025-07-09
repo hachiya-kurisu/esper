@@ -27,3 +27,7 @@ $ esper -c services.gmi
 
 last updated 2025.02.22 01:31
 ```
+
+## author
+
+[蜂谷栗栖](https://blekksprut.net/)

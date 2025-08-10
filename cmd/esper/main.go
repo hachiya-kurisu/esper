@@ -65,5 +65,5 @@ func main() {
 	}
 
 	now := time.Now()
-	fmt.Printf("\nlast updated %s\n", now.Format("2006.01.02 15:04"))
+	fmt.Printf("\n%s\n", name, now.Format("2006.01.02 15:04"))
 }

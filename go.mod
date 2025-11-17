@@ -1,6 +1,6 @@
 module blekksprut.net/esper
 
-go 1.24.6
+go 1.25.4
 
 require (
 	blekksprut.net/natto v0.2.0

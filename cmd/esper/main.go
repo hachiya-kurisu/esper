@@ -14,16 +14,16 @@ import (
 )
 
 func main() {
-	c := flag.String("c", "/etc/esper.conf", "config file")
+	f := flag.String("f", "/etc/esper.conf", "file")
 	s := flag.String("s", "", "symbols (animals/cards)")
 
 	flag.Parse()
 
-	f, err := os.Open(*c)
+	file, err := os.Open(*f)
 	if err != nil {
 		log.Fatal(err)
 	}
-	defer f.Close()
+	defer file.Close()
 
 	var symbols []string
 	switch *s {
@@ -35,7 +35,7 @@ func main() {
 		log.Fatal("unknown symbols")
 	}
 
-	scanner := bufio.NewScanner(f)
+	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
 		line := scanner.Text()
 
